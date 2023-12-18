@@ -10,12 +10,39 @@ fetch("js/data/pokemon.json")
 .then((data) => {
 	dades = data.pokemon;		
 	
-	console.log(dades)
-	console.log(dades[0].name)
+	console.log(dades);
+	console.log(dades[0].name);
 
 });
 
+//funció que inicialitza de nou les dades
+function refreshDades() {
+	dades.reload();
 
+}
+
+//funció que ordena les dades de forma ascendent
+function ascendent() {
+
+
+}
+
+//funció que ordena les dades de forma descendent
+function descendent() {
+
+}
+
+//botó de búsqueda
+function botoBusqueda() {
+
+
+}
+
+//botó que calcula la mitjana del valor afegit en el últim bloc afegit a l'array
+function mitjanaValorAfegit() {
+
+
+}
 
 /*
 // MUNICIPIS
